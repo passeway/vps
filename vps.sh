@@ -34,5 +34,3 @@ case $option in
         ;;
 esac
 
-# 删除脚本文件
-rm $0
