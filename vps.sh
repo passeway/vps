@@ -6,7 +6,7 @@ echo "2. 安装reality"
 echo "3. 安装Hysteria"
 echo "4. 开放所有端口"
 echo "5. 修改root登录"
-echo "6. 开启BBR优化"
+echo "6. 开启BBR 优化"
 
 read -p "请输入选项编号: " option
 
