@@ -8,7 +8,7 @@ echo "4. 开放所有端口"
 echo "5. 修改root登录"
 echo "6. 开启BBR优化"
 
-read -p "请输入选项: " option
+read -p "请输入选项编号: " option
 
 case $option in
     1)
