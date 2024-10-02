@@ -49,7 +49,7 @@ while true; do
             ;;
         3)
             echo -e "${CYAN}正在进入 Snell${RESET}"
-            curl -sS -o Snell.sh https://gitlab.com/passeway/Snell/raw/main/Snell.sh && chmod +x Snell.sh && ./Snell.sh
+            bash <(curl -fsSL https://gitlab.com/passeway/Snell/raw/main/Snell.sh)
             ;;
         4)
             echo -e "${CYAN}正在进入 Mieru${RESET}"
