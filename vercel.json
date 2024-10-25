@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://raw.githubusercontent.com/passeway/vps/refs/heads/main/vps.sh",
+      "permanent": true
+    }
+  ]
+}
