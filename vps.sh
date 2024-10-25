@@ -41,39 +41,39 @@ while true; do
             ;;
         1)
             echo -e "${CYAN}正在进入 Xray${RESET}"
-            bash <(curl -fsSL https://gitlab.com/passeway/Xray/raw/main/Xray.sh)
+            bash <(curl -fsSL xray-bay.vercel.app)
             ;;
         2)
             echo -e "${CYAN}正在进入 Naïve${RESET}"
-            bash <(curl -fsSL https://gitlab.com/passeway/naiveproxy/raw/main/naive.sh)
+           bash <(curl -fsSL naiveproxy-sigma.vercel.app)
             ;;
         3)
             echo -e "${CYAN}正在进入 Snell${RESET}"
-            bash <(curl -fsSL https://gitlab.com/passeway/Snell/raw/main/Snell.sh)
+            bash <(curl -fsSL snell-ten.vercel.app)
             ;;
         4)
             echo -e "${CYAN}正在进入 Mieru${RESET}"
-            bash <(curl -fsSL https://gitlab.com/passeway/mieru/raw/main/mieru.sh)
+            bash <(curl -fsSL mieru-ten.vercel.app)
             ;;
         5)
             echo -e "${CYAN}正在进入 Hysteria${RESET}"
-            bash <(curl -fsSL https://gitlab.com/passeway/Hysteria/raw/main/Hysteria.sh)
+            bash <(curl -fsSL hysteria-eight.vercel.app)
             ;;
         6)
             echo -e "${CYAN}正在进入 sing-box${RESET}"
-            bash <(curl -fsSL https://gitlab.com/passeway/sing-box/raw/main/sing-box.sh)
+            bash <(curl -fsSL sing-box-sigma.vercel.app)
             ;;
         7)
             echo -e "${CYAN}正在开放 VPS 端口${RESET}"
-            curl -sS -o ufw.sh https://gitlab.com/passeway/ufw/raw/main/ufw.sh && chmod +x ufw.sh && ./ufw.sh
+            bash <(curl -fsSL ufw-liart.vercel.app)
             ;;
         8)
             echo -e "${CYAN}正在修改 root 登录${RESET}"
-            curl -sS -o root.sh https://gitlab.com/passeway/root/raw/main/root.sh && chmod +x root.sh && ./root.sh
+            bash <(curl -fsSL root-silk.vercel.app)
             ;;
         9)
             echo -e "${CYAN}正在开启 BBR 优化${RESET}"
-            curl -sS -o bbr.sh https://gitlab.com/passeway/bbr/raw/main/bbr.sh && chmod +x bbr.sh && ./bbr.sh
+            bash <(curl -fsSL bbr-pi.vercel.app)
             ;;
         *)
             echo -e "${RED}无效的选项${RESET}"
