@@ -4,7 +4,7 @@
 
 ## 一键脚本
 ```
-bash <(curl -fsSL vps-lake.vercel.app)
+bash <(curl -fsSL vps-psi.vercel.app)
 ```
 ## 常用指令
 查看进程
