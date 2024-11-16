@@ -13,17 +13,13 @@ RESET='\033[0m'
 show_menu() {
     clear
     echo -e "${GREEN}=== VPS 管理工具 ===${RESET}"
-    echo "1. 安装 Xray"
-    echo "2. 安装 Naïve"
-    echo "3. 安装 Snell"
-    echo "4. 安装 Mieru"
-    echo "5. 安装 Hysteria"
-    echo "6. 安装 sing-box"
-    echo "7. 开放 VPS 端口"
-    echo "8. 修改 root登录"
-    echo "9. 开启 BBR 优化"
-    echo "0. 退出"    
+    echo -e "1. 安装 Xray              2. 安装 Naïve"
+    echo -e "3. 安装 Snell             4. 安装 Mieru"
+    echo -e "5. 安装 Hysteria          6. 安装 sing-box"
+    echo -e "7. 开放 VPS 端口          8. 修改 root 登录"
+    echo -e "9. 开启 BBR 优化          0. 退出"
     echo -e "${GREEN}====================${RESET}"
+    echo ""
     read -p "请输入选项编号: " choice
     echo ""
 }
@@ -45,7 +41,7 @@ while true; do
             ;;
         2)
             echo -e "${CYAN}正在进入 Naïve${RESET}"
-           bash <(curl -fsSL naiveproxy-sigma.vercel.app)
+            bash <(curl -fsSL naiveproxy-sigma.vercel.app)
             ;;
         3)
             echo -e "${CYAN}正在进入 Snell${RESET}"
