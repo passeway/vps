@@ -12,13 +12,13 @@ RESET='\033[0m'
 # 显示菜单
 show_menu() {
     clear
-    echo -e "${GREEN}=== VPS 管理工具 ===${RESET}"
-    echo -e "1. 安装 Xray              2. 安装 Naïve"
-    echo -e "3. 安装 Snell             4. 安装 Mieru"
-    echo -e "5. 安装 Hysteria          6. 安装 sing-box"
-    echo -e "7. 开放 VPS 端口          8. 修改 root 登录"
-    echo -e "9. 开启 BBR 优化          0. 退出"
-    echo -e "${GREEN}====================${RESET}"
+    echo -e "${GREEN}========= VPS 管理工具 =========${RESET}"
+    echo -e "1. 安装 Xray           2. 安装 Naïve"
+    echo -e "3. 安装 Snell          4. 安装 Mieru"
+    echo -e "5. 安装 Hysteria       6. 安装 sing-box"
+    echo -e "7. 开放 VPS 端口       8. 修改 root 登录"
+    echo -e "9. 开启 BBR 优化       0. 退出"
+    echo -e "${GREEN}================================${RESET}"
     echo ""
     read -p "请输入选项编号: " choice
     echo ""
